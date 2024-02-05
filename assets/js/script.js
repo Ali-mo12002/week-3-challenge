@@ -126,7 +126,7 @@ function lengthvalid(){ // function to check if length entered is valid
   }
   function generatePassword(){ // function to generate the password
 genpassword = " "; // ensures that password box is clear so if user generates password again previous ones will be removed
-char = " "; // ensures that char variable is empty everytime so if user changes preference it wont have two of same character in it
+char = ""; // ensures that char variable is empty everytime so if user changes preference it wont have two of same character in it
 lengthvalid(); // calls on length function
 console.log("Numlength = " + lengthpass); // logs length in console
 UCyesno(); // calls on uppercase function
